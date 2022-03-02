@@ -38,7 +38,7 @@ constructor(
     }
 
     private fun scrollToBottom() {
-        val scrollAmount = layout.getLineTop(lineCount) - height
+        val scrollAmount = layout.getLineTop(lineCount) - height + paddingTop + paddingBottom
 
         if (scrollAmount > 0) {
             scrollTo(0, scrollAmount)
