@@ -1,0 +1,14 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Replit Lite</string>
+
+    <string name="run_label">Run</string>
+    <string name="running_label">Running…</string>
+
+    <string name="new_code_run_alert_message">
+        Running <xliff:g id="line_count">%1$d</xliff:g> lines of code…
+    </string>
+
+    <string name="error_message">
+        Something went wrong during the latest code run
+    </string>
+</resources>

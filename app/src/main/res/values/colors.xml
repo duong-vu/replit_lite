@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="default_bg">#262326</color>
+    <color name="default_bg_accent">#353535</color>
+    <color name="code_default_color">#f0f2f0</color>
+    <color name="keyword_highlight">#d92771</color>
+    <color name="function_highlight">#895cdb</color>
+    <color name="value_highlight">#4d8feb</color>
+</resources>
