@@ -4,8 +4,10 @@
     <string name="run_label">Run</string>
     <string name="running_label">Running…</string>
 
+    <string name="clear_label">Clear</string>
+
     <string name="new_code_run_alert_message">
-        Running <xliff:g id="line_count">%1$d</xliff:g> lines of code…
+        Running <xliff:g id="line_count">%1$d</xliff:g> line(s) of code…
     </string>
 
     <string name="error_message">

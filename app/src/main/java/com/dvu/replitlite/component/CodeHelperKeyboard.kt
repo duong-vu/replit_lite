@@ -11,8 +11,10 @@ private val DEFAULT_HELPER_KEYS = listOf(
     CharKey(':'),
     CharKey('('),
     CharKey(')'),
-    CharKey('\''),
     CharKey('\"'),
+    CharKey('='),
+    CharKey('\''),
+    CharKey('#'),
 )
 
 class CodeHelperKeyboard @JvmOverloads

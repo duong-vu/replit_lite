@@ -4,6 +4,7 @@ import android.content.Context
 import android.text.SpannableStringBuilder
 import android.text.method.ScrollingMovementMethod
 import android.util.AttributeSet
+import android.view.Gravity
 import androidx.annotation.AttrRes
 import androidx.appcompat.widget.AppCompatTextView
 import androidx.core.content.ContextCompat
@@ -21,6 +22,7 @@ constructor(
         setTextColor(ContextCompat.getColor(context, R.color.code_default_color))
         typeface = ResourcesCompat.getFont(context, R.font.consola)
 
+        gravity = Gravity.BOTTOM
         movementMethod = ScrollingMovementMethod()
     }
 
@@ -33,15 +35,5 @@ constructor(
         builder.append(output)
         builder.append("\n")
         text = builder
-
-        scrollToBottom()
-    }
-
-    private fun scrollToBottom() {
-        val scrollAmount = layout.getLineTop(lineCount) - height + paddingTop + paddingBottom
-
-        if (scrollAmount > 0) {
-            scrollTo(0, scrollAmount)
-        }
     }
 }

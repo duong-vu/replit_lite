@@ -62,6 +62,10 @@ class CodeEditorFragment : Fragment(R.layout.code_editor_fragment) {
             }
         }
 
+        clear_button.setOnClickListener {
+            output_window.clear()
+        }
+
         helper_keyboard.onKeyTappedListener = {
             code_editor.onKeyTapped(it)
         }
